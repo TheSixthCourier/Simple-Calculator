@@ -1,18 +1,23 @@
-print("Calculator")
-
-num1 = 0.0
-num2 = 0.0
+operand_one = 0
+operand_tw0 = 0
 sum = 0.0
-difference = 0.0
-quotient = 0.0 
-product = 0.0
-remainder = 0.0
+difference = 0
+quotient = 0
+product = 0
+remainder = 0.0 #use "%" symbol to get remainder
 
-while input != 'q': 
 
-    input1 = int(input("Input the first Operand/ input a number"))
-    print()
-    input2 = int(input("Input the first Operand/ input a number"))
-    print()
+operand_one = int(input("Input the first Operand: "))
+operand_two = int(input("Input the first Operand: "))
 
-    print(input1 + input2)
+sum = operand_one + operand_two
+sum = round(sum, 1)
+
+difference = operand_one - operand_two
+difference = round(sum, 1)
+
+product = operand_one * operand_two
+product = round(sum, 1)
+
+quotient = operand_one / operand_two
+quotient = round(sum, 1)
