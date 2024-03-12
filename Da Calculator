@@ -1,0 +1,18 @@
+print("Calculator")
+
+num1 = 0.0
+num2 = 0.0
+sum = 0.0
+difference = 0.0
+quotient = 0.0 
+product = 0.0
+remainder = 0.0
+
+while input != 'q': 
+
+    input1 = int(input("Input the first Operand/ input a number"))
+    print()
+    input2 = int(input("Input the first Operand/ input a number"))
+    print()
+
+    print(input1 + input2)
